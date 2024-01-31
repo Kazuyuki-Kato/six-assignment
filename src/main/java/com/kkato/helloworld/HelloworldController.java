@@ -12,7 +12,7 @@ public class HelloworldController {
     public HelloworldResponse Hello() {
         return new HelloworldResponse("Hello world");
     }
-    @PatchMapping("/Say hello project")
+    @PatchMapping("/Say Hello project")
     public HelloworldResponse SayHello(){
         return new HelloworldResponse("Say Hello project");
     }
